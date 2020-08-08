@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D243BC224DE9ED9003956F5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D243BC124DE9ED9003956F5 /* Extensions.swift */; };
+		8A93435E24DF3493001FF940 /* ContentHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A93435D24DF3493001FF940 /* ContentHome.swift */; };
 		8AA9BA1624DE87C800DA3B36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9BA1524DE87C800DA3B36 /* AppDelegate.swift */; };
 		8AA9BA1824DE87C800DA3B36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9BA1724DE87C800DA3B36 /* SceneDelegate.swift */; };
 		8AA9BA1A24DE87C800DA3B36 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9BA1924DE87C800DA3B36 /* FirstViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		5D243BC124DE9ED9003956F5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8A93435D24DF3493001FF940 /* ContentHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHome.swift; sourceTree = "<group>"; };
 		8AA9BA1224DE87C800DA3B36 /* supply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA9BA1524DE87C800DA3B36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AA9BA1724DE87C800DA3B36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				8AA9BA1524DE87C800DA3B36 /* AppDelegate.swift */,
 				8AA9BA1724DE87C800DA3B36 /* SceneDelegate.swift */,
+				8A93435D24DF3493001FF940 /* ContentHome.swift */,
 				5D243BC124DE9ED9003956F5 /* Extensions.swift */,
 				8AA9BA1924DE87C800DA3B36 /* FirstViewController.swift */,
 				8AA9BA1B24DE87C800DA3B36 /* SecondViewController.swift */,
@@ -265,6 +268,7 @@
 				8AA9BA1C24DE87C800DA3B36 /* SecondViewController.swift in Sources */,
 				8AA9BA1A24DE87C800DA3B36 /* FirstViewController.swift in Sources */,
 				8AA9BA1624DE87C800DA3B36 /* AppDelegate.swift in Sources */,
+				8A93435E24DF3493001FF940 /* ContentHome.swift in Sources */,
 				8AA9BA1824DE87C800DA3B36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
