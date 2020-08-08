@@ -32,10 +32,11 @@ struct DonationDetail: View {
                     Spacer()
                     
                 }
-                .padding(.top, 5)
+                .padding(5)
                 .padding(.bottom, 10)
                 Text(donation.city + ", " + donation.state)
-                        .font(.subheadline)
+                    .font(.subheadline)
+                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique orci ac sem sodales, ut vehicula tellus auctor. Duis ac lobortis orci, sed iaculis diam. Integer id dapibus arcu, in pulvinar dui. ")
             }
             .padding()
             

@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Rivers",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Lakes",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "imageName": "silversalmoncreek"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Mountains",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -135.334571,
+            "latitude": 59.560551
+        },
+        "imageName": "chilkoottrail"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Lakes",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": -113.536248,
+            "latitude": 48.69423
+        },
+        "imageName": "stmarylake"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Lakes",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -153.849883,
+            "latitude": 60.641684
+        },
+        "imageName": "twinlake"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Mountains",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -113.934831,
+            "latitude": 48.56002
+        },
+        "imageName": "lakemcdonald"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Rivers",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -143.122586,
+            "latitude": 65.350021
+        },
+        "imageName": "charleyrivers",
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Mountains",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -141.518167,
+            "latitude": 60.089917
+        },
+        "imageName": "icybay"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Lakes",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1009,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -150.086103,
+            "latitude": 61.694334
+        },
+        "imageName": "rainbowlake"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Lakes",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1010,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -121.17799,
+            "latitude": 48.495442
+        },
+        "imageName": "hiddenlake"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Rivers",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1011,
+        "isFeatured": false,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -75.383212,
+            "latitude": 37.91531
+        },
+        "imageName": "chincoteague"
+    },
+    {
+        "name": "Joseph Yeh",
+        "item": "Toilet Paper",
+        "quantity": 20,
+        "category": "Lakes",
+        "city": "Berkeley",
+        "state": "California",
+        "id": 1012,
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
+        "imageName": "umbagog"
+    }
+]
