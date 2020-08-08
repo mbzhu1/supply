@@ -13,11 +13,13 @@ import CoreLocation
 struct Donation: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
+    var item: String
+    var quantity: Int
     fileprivate var imageName: String
     fileprivate var coordinates: Coordinates
     var state: String
     var city: String
-    var category: Category
+    //var category: Category
 
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
@@ -25,12 +27,12 @@ struct Donation: Hashable, Codable, Identifiable {
             longitude: coordinates.longitude)
     }
 
-    enum Category: String, CaseIterable, Codable, Hashable {
-        case medical = "Medical"
-        case hygiene = "Hygiene"
-        case clothes = "Clothes"
-        case consumables = "Consumables"
-    }
+//    enum Category: String, CaseIterable, Codable, Hashable {
+//        case medical = "Medical"
+//        case hygiene = "Hygiene"
+//        case clothes = "Clothes"
+//        case consumables = "Consumables"
+//    }
 }
 
 extension Donation {
