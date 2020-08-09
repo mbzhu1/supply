@@ -26,6 +26,22 @@ struct Donation: Hashable, Codable, Identifiable {
             latitude: coordinates.latitude,
             longitude: coordinates.longitude)
     }
+    
+    
+    static var idStart: Int = 2000
+    init() {
+        self.id = Donation.idStart
+        Donation.idStart+=1
+        self.name = ""
+        self.item = ""
+        self.quantity = 0
+        self.imageName = ""
+        self.city = ""
+        self.state = ""
+        self.coordinates = Coordinates()
+    }
+    
+    
 
 //    enum Category: String, CaseIterable, Codable, Hashable {
 //        case medical = "Medical"
@@ -44,4 +60,9 @@ extension Donation {
 struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double
+    
+    init() {
+        self.latitude = 37.8
+        self.latitude = -122.2
+    }
 }
