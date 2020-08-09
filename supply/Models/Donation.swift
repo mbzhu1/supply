@@ -41,7 +41,18 @@ struct Donation: Hashable, Codable, Identifiable {
         self.coordinates = Coordinates()
     }
     
-    
+    init(id: Int, name: String, item: String, quantity: Int, imageName: String, latitude: Double, longitude: Double, city: String, state: String) {
+        self.id = Donation.idStart
+        Donation.idStart+=1
+        self.name = name
+        self.item = item
+        self.quantity = quantity
+        self.imageName = imageName
+        self.city = city
+        self.state = state
+        self.coordinates = Coordinates(lat: latitude, long: longitude)
+        
+    }
 
 //    enum Category: String, CaseIterable, Codable, Hashable {
 //        case medical = "Medical"
@@ -63,6 +74,11 @@ struct Coordinates: Hashable, Codable {
     
     init() {
         self.latitude = 37.8
-        self.latitude = -122.2
+        self.longitude = -122.2
+    }
+    
+    init(lat: Double, long: Double){
+        self.latitude = lat
+        self.longitude = long
     }
 }
