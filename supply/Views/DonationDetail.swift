@@ -21,31 +21,45 @@ struct DonationDetail: View {
                 MapView(coordinate: donation.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
-                
-                CircleImage(image: donation.image)
-                               .offset(x: 0, y: -130)
-                               .padding(.bottom, -130)
+                .cornerRadius(20)
                 
                 VStack {
-                    
                     HStack {
-                        Text(donation.name)
-                            .font(.title)
-                        Spacer()
+                        Image(systemName: "person.crop.circle")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 40)
+                            .padding(20)
+                        VStack {
+                            HStack {
+                                Text(donation.name)
+                                    .font(.title)
+                                Spacer()
+                            }
+                            .padding(.bottom, CGFloat(0.0))
+                            HStack(alignment: .bottom) {
+                                Text("is donating")
+                                Text("\(donation.quantity) " + donation.item)
+                                    .font(.headline)
+                                Spacer()
+                                
+                            }
+                            .padding(.top, 0)
+                            .padding(.bottom, CGFloat(10.0))
+                        }
                     }
-                    HStack(alignment: .bottom) {
-                        Text("is donating")
-                        Text("\(donation.quantity) " + donation.item)
-                            .font(.headline)
+                    HStack {
+                        Text(donation.city + ", " + donation.state)
+                            .font(.subheadline)
+                            .padding(5)
                         Spacer()
-                        
                     }
                     .padding(5)
-                    .padding(.bottom, CGFloat(10.0))
-                    Text(donation.city + ", " + donation.state)
-                        .font(.subheadline)
-                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique orci ac sem sodales, ut vehicula tellus auctor. Duis ac lobortis orci, sed iaculis diam. Integer id dapibus arcu, in pulvinar dui. ")
-                    
+                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique orci ac sem sodales, ut vehicula tellus auctor. Duis ac lobortis orci, sed iaculis diam. Integer id dapibus arcu, in pulvinar dui. ").padding(5)
+                }
+                CircleImage(image: donation.image)
+                    .padding()
+                VStack {
                     HStack {
                         Button(action: {
                             self.requesting.toggle()
@@ -59,11 +73,13 @@ struct DonationDetail: View {
                             }
                         }.padding()
                         Image(systemName: "captions.bubble")
-                        .imageScale(.large)
+                            .imageScale(.large)
+                            .foregroundColor(.blue)
                             .padding()
                         Image(systemName: "person")
-                        .imageScale(.large)
-                        .padding()
+                            .imageScale(.large)
+                            .foregroundColor(.blue)
+                            .padding()
                     }
                     
                     if self.requesting {
@@ -88,7 +104,6 @@ struct DonationDetail: View {
                             }
                         }
                     }
-                    
                 }
                 .padding()
                 
