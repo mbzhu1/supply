@@ -6,7 +6,7 @@ to distribute essentials
 
 yeah, its exponential
 
-- snoop
+~ snoop*
 
 
 
