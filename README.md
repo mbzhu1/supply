@@ -1,8 +1,12 @@
 <img src="https://github.com/mbzhu1/supply-webs/blob/master/src/resources/supply.svg?raw=true" width="250">
 
-we got the potential
+we got the credentials
 
-to distribute essentials :D
+to distribute essentials 
+
+yeah, its exponential
+
+- snoop
 
 
 
