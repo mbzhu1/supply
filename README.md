@@ -16,4 +16,4 @@ We also created a landing page for this project at https://supply-website.vercel
 
 The repository containing the code for the landing page exists at https://github.com/mbzhu1/supply-webs
 
-There is an undated version of this application with Firebase Authentication at https://github.com/jojo39381/supply
+There is an updated version of this application with Firebase Authentication at https://github.com/jojo39381/supply
