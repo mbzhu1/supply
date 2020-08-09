@@ -21,9 +21,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
 
-        let page = HomeViewController()
-        let nav = UINavigationController(rootViewController: page)
-        window.rootViewController = nav
+//        let page = HomeViewController()
+//        let nav = UINavigationController(rootViewController: page)
+//        window.rootViewController = nav
+        window.rootViewController = UIHostingController(rootView: DonationDetail(donation: donationData[0]))
 
         self.window = window
         window.makeKeyAndVisible()
