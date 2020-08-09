@@ -12,6 +12,7 @@ import UIKit
 import SwiftUI
 
 let donationData: [Donation] = load("donationData.json")
+let requestData: [Request] = load("donationData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
