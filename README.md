@@ -109,32 +109,6 @@ The [landing page](https://supply-website.vercel.app/) was made using **React** 
 Our wireframes and color palette are documented in [Figma](https://www.figma.com/file/ZKLx5jHVJ6YfWGg2PPETNv/Supply)
 
 
-# download and clone this project locally
-
-### method 1
-
-Click to the green code button on the top right of the repository and then click **Open with Xcode** 
-<img src="https://github.com/jojo39381/supply/blob/master/images/method1.png?raw=true"
-     alt="open with xcode image" 
-     width = "350"
-     style="float: left; margin-right: 10px;" />
-     
-If this method does not work, then try the second installation method below
-
-### method 2
-Make sure you have **cocoapods** installed. If not you can install cocoapods with the following command
-```
-sudo gem install cocoapods
-```
-Clone the repository using the command 
-```
-git clone https://github.com/jojo39381/supply.git
-```
-After cloning the repository run the following command to install the required dependencies
-```
-pod install
-```
-
 # [future plans](https://youtu.be/ZreE2mAUVVE)
 1. **Direct Messaging:** Allow direct messaging between donors and requesters within the app rather than just sharing contact info
 
